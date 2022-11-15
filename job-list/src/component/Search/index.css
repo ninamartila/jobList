@@ -1,0 +1,16 @@
+.App-Search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.App-Search-input {
+  margin-right: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-label-search {
+  font-weight: bold;
+}

@@ -1,0 +1,57 @@
+.App {
+  width: 100%;
+}
+
+.App-body {
+  padding: 10px;
+}
+
+.App-job-list {
+  margin: 20px 0;
+  padding: 0 20px;
+  border: rgb(202, 199, 199) solid 1px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 9px slategray;
+}
+
+.App-job-list h1 {
+  padding: 10px 0;
+  font-weight: bold;
+  border-bottom: rgb(202, 199, 199) solid 1px;
+}
+
+.App-list {
+  padding: 10px 0;
+  border-bottom: rgb(202, 199, 199) solid 1px;
+}
+
+.App-list .App-list-item-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-list .App-list-item-row .list-label {
+  font-weight: bold;
+  color: #3290fa;
+}
+
+.App-list .App-list-item-row .list-place {
+  font-weight: 500;
+  color: #5b5b5b;
+}
+
+.App-list .App-list-item-row .App-list-item {
+  display: flex;
+  font-weight: 500;
+  flex-direction: row;
+}
+
+.App-list .App-list-item-row .list-description {
+  color: #898b8d;
+}
+
+.App-list .App-list-item-row .App-list-item .list-type {
+  font-weight: bold;
+  color: #01a237;
+}

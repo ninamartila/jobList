@@ -1,0 +1,61 @@
+.App {
+  width: 100%;
+}
+
+.App-body {
+  padding: 10px;
+}
+
+.App-detail-back {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-back {
+  color: #3290fa;
+  font-weight: bold;
+}
+
+.App-detail-job {
+  margin: 20px 0;
+  padding: 20px;
+  border: rgb(202, 199, 199) solid 1px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 9px slategray;
+}
+
+.App-detail-job .content-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex1 {
+  flex: 1;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.App-detail-job .text-type {
+  color: #898b8d;
+}
+
+.App-detail-job .text-job {
+  color: #003a75;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 25px;
+  padding-bottom: 10px;
+  border-bottom: rgb(202, 199, 199) solid 1px;
+}
+
+.App-detail-job .content-detail .image-job {
+  margin-top: 10px;
+  box-shadow: 1px 2px 9px slategray;
+}
+
+.App-detail-job .text-description-label {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+}
